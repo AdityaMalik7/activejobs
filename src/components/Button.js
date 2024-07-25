@@ -1,7 +1,7 @@
 import React from "react";
 
 const Button = ({ variant = "solid", children, ...props }) => {
-  const baseClasses = "px-4 py-2 font-semibold rounded-3xl mr-2 ";
+  const baseClasses = "px-4 py-2 font-semibold rounded-3xl ";
 
   const variantClasses =
     variant === "outlined"
